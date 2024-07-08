@@ -1,0 +1,53 @@
+/*Styling and adding color to the document*/
+.myshopy-code { 
+    margin-top: 20px; 
+    padding: 20px;
+    border: 1px solid #caafaf; 
+    border-radius: 5px; 
+    max-width: 400px;
+    background-color: #c2bbab; }
+    
+    .myshopy-code input[type="text"] { 
+    padding: 10px; 
+    font-size: 16px;
+    border: 1px solid #bd3636; 
+    border-radius: 5px; 
+    width: 60%; 
+    margin-right:10px; }
+    
+    .myshopy-code button { 
+    padding: 10px 20px; 
+    font-size: 16px;
+    background-color: #83817c; 
+    color: rgb(253, 253, 253); 
+    border: none; 
+    border-radius:5px; 
+    cursor: pointer; 
+    margin-top: 10px; }
+    
+    /*Adding the hover button background color*/
+    .myshopy-code button:hover { 
+    background-color: #506a91; }
+    
+    /*No adding of numbers to the list code*/
+    .myshopy-code ul { 
+    list-style-type:none; 
+    padding: 0; }
+    
+    /*Adding color to the list code*/
+    .myshopy-code ul li { 
+    margin-bottom: 10px; 
+    padding: 10px;
+    background-color: hsl(350, 9%, 86%); 
+    border: 1px solid #eba0a0; 
+    border-radius: 5px; }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 29px;
+        font-style: normal;
+        text-align: left;
+        text-indent: 10px;
+        color: rgb(107, 96, 80);
+        text-transform: uppercase;
+    }

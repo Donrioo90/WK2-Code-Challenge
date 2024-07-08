@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myshopycode.css"> <!-- Links HTML to CSS -->
+    <script src="/myshopycode.js"></script> <!-- Links HTML to the JS file -->
+</head>
+<body>
+    <h1>Donrioo's Breakfast List</h1> <!-- Heading element with "Wanjala's Breakfast List" as the title -->
+    <div class="myshopy-code"> <!-- This <div> element contains the entire shopping list application -->
+        <input type="text" id="itemInput" placeholder="Enter item..."> <!-- Text field for entering new items -->
+        <button onclick="addItem()">Add Item</button> <!-- Button to add items to the list -->
+        <button onclick="markPurchased()">Mark Purchased</button> <!-- Button to mark items as purchased -->
+        <button onclick="clearList()">Clear List</button> <!-- Button to clear the list -->
+        <ul id="listContainer"> <!-- Container for the list of items -->
+        </ul>
+    </div>
+</body>
+</html>
